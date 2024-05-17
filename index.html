@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/styles/style.css">
+   <title>Innovative Countdown</title>
+</head>
+<body>
+   <div class="side-bar">
+      <p>
+         Innovative countdown web app
+      </p>
+      <input type="number" id="dayInput" placeholder="Enter Day">
+      <input type="number" id="monthInput" placeholder="Enter Month">
+      <input type="number" id="yearInput" placeholder="Enter Year">
+      <button id="setDateBtn">Set Date</button>
+   </div>
+   <div class="main">
+      <div class="time-container">
+         <div class="time">
+            <div class="number day" id="day">00</div>
+            <div class="label">Days</div>
+         </div>
+         <div class="time">
+            <div class="number hours" id="hour">00</div>
+            <div class="label">Hours</div>
+         </div>
+         <div class="time">
+            <div class="number minutes" id="minute">00</div>
+            <div class="label">Minutes</div>
+         </div>
+         <div class="time">
+            <div class="number seconds" id="second">00</div>
+            <div class="label">Seconds</div>
+         </div>
+      </div>
+   </div>
+   <script src="/script.js"></script>
+</body>
+</html>
